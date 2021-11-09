@@ -1,0 +1,84 @@
+
+#Eh2 {
+  position:absolute;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  height: 25px;
+  top:40px;
+  left:77px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+#Eimg {
+  position:absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
+
+}
+
+#Eh1 {
+  position:absolute;
+  font-family: 'Space Mono', monospace;
+  width: 550px;
+  height: 190px;
+  top: 150px;
+  left: 800px;
+  font-size: 64px;
+  line-height: 94,78px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+#Ep{
+position: absolute;
+font-family: 'Space Mono', monospace;
+width: 381px;
+height: 108px;
+left: 800px;
+top: 350px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+color: #4F4F4F;
+}
+
+#Ebtn{
+position: absolute;
+width: 216px;
+height: 68px;
+left: 800px;
+top: 550px;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.035em;
+text-transform: uppercase;
+color: #FFFFFF; 
+background: #333333;
+cursor:pointer;
+}
+
+#Eh3{
+height: 17px;
+font-weight: 500;
+font-size: 14px;
+color: #BDBDBD;
+}
+
+#Efooter{
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+

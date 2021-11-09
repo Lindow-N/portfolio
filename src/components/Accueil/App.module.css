@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+
+#headerApp{
+    background-color: #B91646;
+    width: 100%;
+    height: 15%;
+    padding: 2% 0 2% 0;
+    text-align: center;
+}
+#h1App{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    color: white;
+    font-size: 114px;
+
+}
+
+#bodyApp{
+    background-color: #FBF3E4;
+    padding: 0 0 5% 0;
+    height: 100%;
+    display : flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+   
+}
+
+.cardApp{
+    background-color: #DFD8CA;
+    width: 22%;
+    height: 650px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+   
+}
+
+.cardApp2{
+    text-align: center;
+    padding: 4% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+}
+
+.h2App{
+    margin: 0;
+    font-family: 'Andada Pro', serif;
+}
+
+.pApp{
+    font-family: 'Andada Pro', serif;
+    font-size: 20px;
+    margin: 10% 0;
+}
+
+.cardApp3{
+    padding: 0 5% 2% 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.btnApp{
+    background-color: #105652;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    align-items: flex-end;
+
+}
+
+.cardApp a:link {
+    text-decoration: none;
+    align-self: flex-end;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+#jap{
+    width: 99.9%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+#onrec{
+    width: 99.9%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;  
+    border-left: 1px solid black ;
+}
+
+/*--------------------------------------------------------Code pour format de tablette--------------------------------------------------------*/
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+    .cardApp{
+       
+        width: 40%;
+    
+    }
+   
+}
+
+
+/*-------------------------------------------------------Code pour format de smartphone-------------------------------------------------------*/
+
+@media(max-width: 767px)
+{
+    #bodyApp{
+       
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .cardApp{
+       
+        width: 90%;
+        align-self: center;
+    
+    }
+  
+}
