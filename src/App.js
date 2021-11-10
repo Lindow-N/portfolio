@@ -1,7 +1,6 @@
 import React from 'react';
 import Accueil from "./components/Accueil/Accueil";
 import {NavLink,BrowserRouter,Route} from 'react-router-dom';
-import Jap from "../src/components/Jap/index";
 import Onrec from "../src/components/Onrec/index";
 import Tinder from "../src/components/Tinder/index";
 import ScrollToTop from './GoTop';
@@ -25,7 +24,6 @@ return (
 <BrowserRouter>
      <ScrollToTop>
       <Route exact  path="/" component={Accueil}></Route>
-      <Route exact  path="/Jap" component={Jap}></Route>
       <Route exact  path="/Onrec" component={AccueilO}></Route>
       <Route exact  path="/Tinder" component={Tinder}></Route> 
       <Route exact  path="/404" component={Er}></Route>

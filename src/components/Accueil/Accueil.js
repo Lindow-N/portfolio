@@ -18,21 +18,7 @@ return (
 
 <div id={styles.bodyApp}>
 
-  <div  className={styles.cardApp}>
-
-    <img id={styles.jap} src={jap}alt=""/>
-    <div className={styles.cardApp2}>
-    <h2 className={styles.h2App}>Japanese Courses Landing Page</h2>
-    <p className={styles.pApp}>Page d'accueil d'un site d'apprentissage du japonais. J'ai réalisé cette page ( vu sur le site <a href="https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page">dribble</a>) car elle m'avait plus et que je la trouvais intéressante.Utilisation de react- bootstrap.</p>
-   
-   
-
-  </div>
-  <div className={styles.cardApp3}><NavLink to="/Jap" exact><button className={styles.btnApp}>Voir Plus</button></NavLink></div>
   
-  </div>
-
-
 
   <div  className={styles.cardApp}>
 
