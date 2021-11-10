@@ -3,6 +3,8 @@ import './index.css';
 import React, { Fragment } from 'react';
 import Footer from '../Footer/Footer';
 
+
+
 class Tesla extends React.Component {
 
   render() {
@@ -117,6 +119,8 @@ class Tesla extends React.Component {
     © Tesla
   </div>
 </footer>
+
+<Footer></Footer>
   </Fragment>
   );
 }
